@@ -1,5 +1,4 @@
 const Path = require('path');
-const { HashedModuleIdsPlugin } = require('webpack');
 
 const ROOT_PATH = __dirname;
 const TARGET_PATH = Path.join(ROOT_PATH, './target/');
@@ -25,7 +24,6 @@ const config = {
             maxInitialRequests: 20,
         },
     },
-    plugins: [new HashedModuleIdsPlugin()],
 };
 
 module.exports = config;
