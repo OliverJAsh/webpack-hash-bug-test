@@ -1,6 +1,8 @@
 # webpack-hash-bug-test
 
 ```bash
+git clean -fd before after
+
 npm run compile
 cp -r target before
 
@@ -17,4 +19,6 @@ ls before after
 # 1. "main" chunk content and hash changed ✅
 # 2. "internal-error-route~not-found-route" chunk content did not change, yet hash did ❌
 git diff --no-index before after
+
+git checkout master
 ```
