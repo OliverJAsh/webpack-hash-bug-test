@@ -3,7 +3,10 @@
 ```bash
 npm run compile
 cp -r target before
+
+# This branch includes a small rename change
 git checkout changes
+
 npm run compile
 cp -r target after
 
