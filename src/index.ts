@@ -1,4 +1,4 @@
-import { TRENDS_PATH } from './path-consants';
+import { TRENDS_PATH } from './path-constants';
 
 console.log(TRENDS_PATH);
 
