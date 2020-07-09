@@ -3,7 +3,9 @@
 ```bash
 npm run compile
 cp -r target before
+
 git checkout changes
+
 npm run compile
 cp -r target after
 
